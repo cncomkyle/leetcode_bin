@@ -57,7 +57,7 @@ class Solution {
                         }
                     }
 
-                    System.out.printf("size:%d#beginRow:%d#beingCol:%d#nextRow:%d#nextCol:%d\n",size, beginRow, beginCol, nextRow, nextCol);
+                    //System.out.printf("size:%d#beginRow:%d#beingCol:%d#nextRow:%d#nextCol:%d\n",size, beginRow, beginCol, nextRow, nextCol);
                     tmp=matrix[nextRow][nextCol];
                     matrix[nextRow][nextCol] = preEleVal;
                     preEleVal = tmp;

@@ -14,7 +14,7 @@ class Solution {
     }
     
     public ListNode mergeTwoLists(ListNode l1, ListNode l2) {
-        ListNode head = null, tmpNode = null, nextNode = null;
+        ListNode head = new ListNode(0), tmpNode = null, nextNode = head;
         
         while(l1 != null
               && l2 != null) {
@@ -25,31 +25,21 @@ class Solution {
                 tmpNode = l2;
                 l2 = l2.next;
             }
-            
-            if(head == null) {
-                head = tmpNode;
-                nextNode = head;
-            } else {
-                nextNode.next = tmpNode;
-                nextNode = tmpNode;
-            }
-
+                       
+            nextNode.next = tmpNode;
+            nextNode = tmpNode;
         }
 
         tmpNode = null;
         if(l1 != null) {
-
             tmpNode = l1;
         } else if(l2 != null) {
             tmpNode = l2;
 
         }
-        if(nextNode == null) {
-            head = tmpNode;
-        } else {
-            nextNode.next = tmpNode;
-        }
-        return head;
+        nextNode.next = tmpNode;
+
+        return head.next;
     }
 
     public static void main(String[] args) {
