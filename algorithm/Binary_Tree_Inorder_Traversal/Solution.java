@@ -151,7 +151,7 @@ public class Solution {
 
 
     public static void main(String[] args) {
-        Solution ins = new Solution();
+        Solution692 ins = new Solution692();
 
         printList(ins.inorderTraversal(createTree(new Integer[]{1, null, 2, null, null, 3})));
 

@@ -65,7 +65,7 @@ public class Solution {
         node_6.next = node_7;
         node_7.next = node_2;
 
-        Solution ins = new Solution();
+        Solution692 ins = new Solution692();
         ListNode head = ins.detectCycle(node_1);
         System.out.println(head.val);
 

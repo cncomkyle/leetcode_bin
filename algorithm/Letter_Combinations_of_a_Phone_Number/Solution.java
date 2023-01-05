@@ -40,7 +40,7 @@ class Solution {
     }
 
     public static void main(String[] args) {
-        Solution ins = new Solution();
+        Solution692 ins = new Solution692();
         String digits = "23";
         List<String> result = ins.letterCombinations(digits);
 

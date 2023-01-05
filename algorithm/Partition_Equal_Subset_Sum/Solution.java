@@ -1,4 +1,3 @@
-import java.util.List;
 import java.util.Arrays;
 
 public class Solution {
@@ -31,7 +30,7 @@ public class Solution {
     }
 
     public static void main(String[] args) {
-        Solution ins = new Solution();
+        Solution692 ins = new Solution692();
 
         System.out.println(ins.canPartition(new int[]{1, 5, 11, 5}));
         System.out.println(ins.canPartition(new int[]{1, 2, 3, 5}));

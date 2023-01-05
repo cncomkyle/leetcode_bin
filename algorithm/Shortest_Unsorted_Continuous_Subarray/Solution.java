@@ -65,7 +65,7 @@ class Solution {
     }
 
     public static void main(String[] args) {
-        Solution ins = new Solution();
+        Solution692 ins = new Solution692();
 
         // System.out.println(ins.findUnsortedSubarray(new int[]{2, 6, 4, 8, 10, 9, 15}));
         // System.out.println(ins.findUnsortedSubarray(new int[]{1, 2, 3, 4}));

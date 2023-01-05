@@ -79,7 +79,7 @@ class Solution {
     }
 
     public static void main(String[] args) {
-        Solution ins = new Solution();
+        Solution692 ins = new Solution692();
         System.out.println(ins.minDistance("horse", "ros"));
         System.out.println(ins.minDistance("intention", "execution"));
         System.out.println(ins.minDistance("pneumonoultramicroscopicsilicovolcanoconiosis","ultramicroscopical"));

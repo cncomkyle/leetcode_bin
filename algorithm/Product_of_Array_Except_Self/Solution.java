@@ -29,7 +29,7 @@ public class Solution {
     }
 
     public static void main(String[] args) {
-        Solution ins = new Solution();
+        Solution692 ins = new Solution692();
         printArrays(ins.productExceptSelf(new int[]{1, 2, 3, 4}));
     }
 }

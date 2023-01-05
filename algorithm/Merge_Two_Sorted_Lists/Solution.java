@@ -43,7 +43,7 @@ class Solution {
     }
 
     public static void main(String[] args) {
-        Solution ins = new Solution();
+        Solution692 ins = new Solution692();
         ListNode head1 = new ListNode(1);
         head1.next = new ListNode(2);
         head1.next.next = new ListNode(4);

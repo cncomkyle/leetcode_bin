@@ -65,7 +65,7 @@ class Solution {
     }
 
     public static void main(String[] args) {
-        Solution ins = new Solution();
+        Solution692 ins = new Solution692();
 
         ListNode head_1 = createList(new int[]{1, 2, 3, 4, 5});
         printList(ins.reverseList(head_1));

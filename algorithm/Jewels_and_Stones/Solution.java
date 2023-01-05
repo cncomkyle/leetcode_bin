@@ -27,7 +27,7 @@ class Solution {
 
 
     public static void main(String[] args) {
-        Solution instance = new Solution();
+        Solution692 instance = new Solution692();
         System.out.println(instance.numJewelsInStones("WKD", "kmHbs"));
     }
 }

@@ -206,7 +206,7 @@ public class Solution {
     }
 
     public static void main(String[] args) {
-        Solution ins = new Solution();
+        Solution692 ins = new Solution692();
 
         int[] nodes_1 = {4, 2, 1, 3};
         //printListNodes(createListNodes(nodes_1));

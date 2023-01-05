@@ -51,7 +51,7 @@ class Solution {
     public static void main(String[] args) {
         int[] nums = {-1, 0, 1, 2, -1, -4};
 
-        Solution ins = new Solution();
+        Solution692 ins = new Solution692();
         List<List<Integer>> result = ins.threeSum(nums);
         for(List<Integer> tmpList : result) {
             for(Integer tmp : tmpList) {

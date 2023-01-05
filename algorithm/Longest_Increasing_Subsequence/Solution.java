@@ -27,7 +27,7 @@ public class Solution {
     }
 
     public static void main(String[] args) {
-        Solution ins = new Solution();
+        Solution692 ins = new Solution692();
         System.out.println(ins.lengthOfLIS(new int[]{10,9,2,5,3,7,101,18}));
     }
 }

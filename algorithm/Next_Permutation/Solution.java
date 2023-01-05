@@ -72,7 +72,7 @@ class Solution {
     }
 
     public static void main(String[] args) {
-        Solution ins = new Solution();
+        Solution692 ins = new Solution692();
         int[] nums = {1, 3, 2};
 
         nums = new int[]{1, 3, 5, 4, 2};

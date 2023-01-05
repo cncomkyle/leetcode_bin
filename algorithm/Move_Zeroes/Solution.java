@@ -39,7 +39,7 @@ public class Solution {
     }
 
     public static void main(String[] args) {
-        Solution ins = new Solution();
+        Solution692 ins = new Solution692();
 
         int[] data_1 = {0,1,0,3,12};
         ins.moveZeroes(data_1);

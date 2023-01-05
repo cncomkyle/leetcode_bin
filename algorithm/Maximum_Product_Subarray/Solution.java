@@ -56,7 +56,7 @@ public class Solution {
     }
 
     public static void main(String[] args) {
-        Solution ins = new Solution();
+        Solution692 ins = new Solution692();
         System.out.println(ins.maxProduct(new int[]{2,3,-2,4}));
 
         System.out.println(ins.maxProduct(new int[]{-2, 0, -1}));

@@ -41,7 +41,7 @@ class Solution {
     }
 
     public static void main(String[] args) {
-        Solution ins = new Solution();
+        Solution692 ins = new Solution692();
         int[] nums = {5, 7, 7, 8, 8, 8, 10};
         int[] rlt = ins.searchRange(nums, 8);
         rlt = ins.searchRange(nums, 6);

@@ -19,7 +19,7 @@ public class Solution {
     }
 
     public static void main(String[] args) {
-        Solution ins = new Solution();
+        Solution692 ins = new Solution692();
         System.out.println((int)Math.floor(Math.sqrt(12)));
 
         System.out.println(ins.numSquares(12));

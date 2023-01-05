@@ -26,7 +26,7 @@ class Solution {
     }
 
     public static void main(String[] args) {
-        Solution ins = new Solution();
+        Solution692 ins = new Solution692();
 
         int[] nums = {2, 3, 1, 1, 4};
         System.out.println(ins.canJump(nums));

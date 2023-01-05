@@ -12,7 +12,7 @@ public class Solution {
     }
 
     public static void main(String[] args) {
-        Solution ins = new Solution();
+        Solution692 ins = new Solution692();
         System.out.println(ins.singleNumber(new int[]{2,2,1}));
         System.out.println(ins.singleNumber(new int[]{4,1,2,1,2}));
     }

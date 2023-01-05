@@ -1,5 +1,3 @@
-import java.util.List;
-import java.util.ArrayList;
 import java.util.Stack;
     
 /**
@@ -30,7 +28,7 @@ public class Solution {
         Stack<Pair<TreeNode, Integer>> stack = new Stack<Pair<TreeNode, Integer>>();
 
         // Initialize the stack with the root node.
-        stack.push(new Pair<TreeNode, Integer>(root, Solution.BOTH_PENDING));
+        stack.push(new Pair<TreeNode, Integer>(root, Solution692.BOTH_PENDING));
 
         // This flag is set when either one of p or q is found.
         boolean one_node_found = false;
@@ -50,10 +48,10 @@ public class Solution {
 
             // If the parent_state is not equal to BOTH_DONE,
             // this means the parent_node can't be popped off yet.
-            if (parent_state != Solution.BOTH_DONE) {
+            if (parent_state != Solution692.BOTH_DONE) {
 
                 // If both child traversals are pending
-                if (parent_state == Solution.BOTH_PENDING) {
+                if (parent_state == Solution692.BOTH_PENDING) {
 
                     // Check if the current parent_node is either p or q.
                     if (parent_node == p || parent_node == q) {
@@ -86,7 +84,7 @@ public class Solution {
 
                 // Add the child node to the stack for traversal.
                 if (child_node != null) {
-                    stack.push(new Pair<TreeNode, Integer>(child_node, Solution.BOTH_PENDING));
+                    stack.push(new Pair<TreeNode, Integer>(child_node, Solution692.BOTH_PENDING));
                 }
             } else {
 
@@ -233,7 +231,7 @@ public class Solution {
     }
 
     public static void main(String[] args) {
-        Solution ins = new Solution();
+        Solution692 ins = new Solution692();
         Integer[] nodes = {1,2,5,3,4,null,6};
 
         TreeNode root = ins.createTree(nodes);

@@ -83,7 +83,7 @@ public class Solution {
     }
 
     public static void main(String[] args) {
-        Solution ins = new Solution();
+        Solution692 ins = new Solution692();
         Integer[] nodes = {5,1,4,null,null,3,6};
 
         List<List<Integer>> rltList = ins.levelOrder(ins.createTree(nodes));

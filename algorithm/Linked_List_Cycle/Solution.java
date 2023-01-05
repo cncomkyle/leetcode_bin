@@ -74,7 +74,7 @@ public class Solution {
     }
 
     public static void main(String[] args) {
-        Solution ins = new Solution();
+        Solution692 ins = new Solution692();
 
         System.out.println(ins.hasCycle(createList(new int[]{3,2,0,-4}, 1)));
         System.out.println(ins.hasCycle(createList(new int[]{1, 2}, 0)));

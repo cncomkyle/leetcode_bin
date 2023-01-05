@@ -30,7 +30,7 @@ class Solution {
     }
 
     public static void main(String[] args) {
-        Solution ins = new Solution();
+        Solution692 ins = new Solution692();
         int[][] grid = {{1,3,1},{1,5,1},{4,2,1}};
         System.out.println(ins.minPathSum(grid));
     }

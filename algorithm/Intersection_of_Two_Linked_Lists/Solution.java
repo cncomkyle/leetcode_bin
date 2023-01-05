@@ -104,7 +104,7 @@ public class Solution {
     }
 
     public static void main(String[] args) {
-        Solution ins = new Solution();
+        Solution692 ins = new Solution692();
 
         // printList(createList(new int[]{0, 9, 1, 2, 4}));
         ListNode tmp_1 = ins.getIntersectionNode(createList(new int[]{0, 9, 1, 2, 4}), createList(new int[]{3, 2, 4}));

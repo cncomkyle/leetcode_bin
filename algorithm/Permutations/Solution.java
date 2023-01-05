@@ -40,7 +40,7 @@ class Solution {
     }
 
     public static void main(String[] args) {
-        Solution ins = new Solution();
+        Solution692 ins = new Solution692();
         int[] nums = {1, 2, 3};
         List<List<Integer>> rltList = ins.permute(nums);
 

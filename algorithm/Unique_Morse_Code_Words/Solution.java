@@ -41,7 +41,7 @@ public class Solution {
 
     public static void main(String[] args) {
         String[] words = {"gin", "zen", "gig", "msg"};
-        Solution instance = new Solution();
+        Solution692 instance = new Solution692();
         System.out.println(instance.uniqueMorseRepresentations(words));
     }
 }

@@ -181,7 +181,7 @@ public class Solution {
     }
 
     public static void main(String[] args) {
-        Solution ins = new Solution();
+        Solution692 ins = new Solution692();
         System.out.println(ins.rob(createTree(new Integer[]{3,2,3,null,3,null,1})));
         System.out.println(ins.rob(createTree(new Integer[]{3,4,5,1,3,null,1})));
         System.out.println(ins.rob(createTree(new Integer[]{2,1,3,null,4})));

@@ -153,7 +153,7 @@ public class Solution {
 
 
     public static void main(String[] args) {
-        Solution ins = new Solution();
+        Solution692 ins = new Solution692();
 
         printTrees(ins.invertTree(createTree(new Integer[]{4, 2, 7, 1, 3, 6, 9})));
         printTrees(ins.invertTree(createTree(new Integer[]{1, 2})));

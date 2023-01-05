@@ -87,7 +87,7 @@ class Solution {
         String s = "abc";
         String p = "abcc*";
 
-        Solution ins = new Solution();
+        Solution692 ins = new Solution692();
         System.out.println(ins.isMatch(s, p));
 
         s = "abcc";

@@ -164,7 +164,7 @@ public class Solution {
     
 
     public static void main(String[] args) {
-        Solution ins = new Solution();
+        Solution692 ins = new Solution692();
         System.out.println(ins.decodeString("3[a]2[bc]"));
         System.out.println(ins.decodeString("3[a2[c]]"));
         System.out.println(ins.decodeString("2[abc]3[cd]ef"));

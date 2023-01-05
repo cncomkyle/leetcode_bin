@@ -2,8 +2,6 @@ import java.util.List;
 import java.util.ArrayList;
 import java.util.Map;
 import java.util.HashMap;
-import java.util.Set;
-import java.util.Iterator;
 
 public class Solution {
 
@@ -252,7 +250,7 @@ public class Solution {
     }
 
     public static void main(String[] args) {
-        Solution ins = new Solution();
+        Solution692 ins = new Solution692();
 
         int[][] data_9 = {{0,1}};
         System.out.println(ins.canFinish(2, data_9));

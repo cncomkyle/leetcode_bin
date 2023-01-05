@@ -65,7 +65,7 @@ public class Solution {
     }
 
     public static void main(String[] args) {
-        Solution ins = new Solution();
+        Solution692 ins = new Solution692();
         char[][] board = {{'A', 'B', 'C', 'E'}, {'S', 'F', 'C', 'S'}, {'A', 'D', 'E', 'E'} };
         System.out.println(ins.exist(board, "ABCCED"));
         System.out.println(ins.exist(board, "SEE"));

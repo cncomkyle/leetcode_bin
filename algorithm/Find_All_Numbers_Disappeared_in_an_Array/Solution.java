@@ -55,7 +55,7 @@ public class Solution {
 
 
     public static void main(String[] args) {
-        Solution ins = new Solution();
+        Solution692 ins = new Solution692();
 
         printList(ins.findDisappearedNumbers(new int[]{4,3,2,7,8,2,3,1}));
     }

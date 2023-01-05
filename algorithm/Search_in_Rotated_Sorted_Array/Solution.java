@@ -36,7 +36,7 @@ class Solution {
     }
 
     public static void main(String[] args) {
-        Solution ins = new Solution();
+        Solution692 ins = new Solution692();
         int[] nums = {4, 5, 6, 7 , 0, 1, 2};
         System.out.println(ins.search(nums, 4));
         System.out.println(ins.search(nums, 3));

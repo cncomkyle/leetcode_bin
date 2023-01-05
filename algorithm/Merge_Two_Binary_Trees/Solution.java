@@ -257,7 +257,7 @@ public class Solution {
 
 
     public static void main(String[] args) {
-        Solution ins = new Solution();
+        Solution692 ins = new Solution692();
 
         printTrees(ins.mergeTrees(createTree(new Integer[]{1, 3, 2, 5}), createTree(new Integer[]{2, 1, 3, null, 4, null, 7})));
         printTrees(ins.cloneTree(createTree(new Integer[]{1, 3, 2, 5})));

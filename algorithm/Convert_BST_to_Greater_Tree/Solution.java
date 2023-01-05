@@ -225,7 +225,7 @@ class Solution {
     }
 
     public static void main(String[] args) {
-        Solution ins = new Solution();
+        Solution692 ins = new Solution692();
 
         printTrees(ins.convertBST(createTree(new Integer[]{5, 2, 13})));
         printTrees(ins.convertBST(createTree(new Integer[]{4, 2, 6, 1, 3, 5, 7})));
