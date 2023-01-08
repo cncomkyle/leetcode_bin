@@ -21,7 +21,7 @@ public class Solution {
         return rlt;
     }
 
-    public static void main(String[] args) {
+    Public static void main(String[] args) {
         Solution tester = new Solution();
 
         int rlt = tester.singleNumber(new int[]{4, 2, 2});
